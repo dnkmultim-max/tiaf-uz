@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="uz-Cyrl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Онлайн ариза — Тошкент халқаро мода академияси</title>
+<meta name="description" content="Абитуриент аризасини онлайн топшириш.">
+<link rel="icon" type="image/png" href="assets/mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600&subset=cyrillic,cyrillic-ext,latin,latin-ext&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="alternate" hreflang="uz-Cyrl" href="onlayn-ariza.html">
+<link rel="alternate" hreflang="uz-Latn" href="oz/onlayn-ariza.html">
+<link rel="alternate" hreflang="ru" href="ru/onlayn-ariza.html">
+<link rel="alternate" hreflang="en" href="en/onlayn-ariza.html">
+<link rel="alternate" hreflang="fr" href="fr/onlayn-ariza.html">
+<link rel="alternate" hreflang="x-default" href="onlayn-ariza.html">
+</head>
+<body data-page="onlayn-ariza.html" data-section="2" data-updated="21.10.2026">
+<div id="chrome-top"></div>
+<main id="main">
+<section class="pagehead">
+  <div class="pat" data-pat="ikat" data-o=".32" style="color:#1f7a5c" aria-hidden="true"></div>
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Нон ушоғи"><ol>
+      <li><a href="index.html">Бош саҳифа</a></li>
+      <li><a href="qabul.html">Қабул</a></li>
+      <li aria-current="page">Онлайн ариза</li>
+    </ol></nav>
+    <h1>Онлайн ариза</h1>
+    <p class="lead">Абитуриент аризасини онлайн топшириш.</p>
+  </div>
+</section>
+<div class="wrap inner">
+  <aside class="sidenav" id="sidenav" aria-label="Бўлим менюси"></aside>
+  <article class="prose">
+
+    <span class="proto-badge">Прототип</span>
+    <div class="callout warn">
+      <p><b>Бу шаклнинг намунаси.</b> Қабул бошлангунча ариза қабул қилинмайди ва киритилган маълумотлар ҳеч қаерга юборилмайди. Қабул портали (П4) уланганда ҳақиқий шакл ишга тушади.</p>
+    </div>
+    <form class="form" id="applyForm" data-demo novalidate>
+      <fieldset>
+        <legend>Шахсий маълумотлар</legend>
+        <div class="row2">
+          <div class="field"><label for="f-last">Фамилия *</label><input id="f-last" type="text" required autocomplete="family-name"><p class="err">Фамилияни киритинг</p></div>
+          <div class="field"><label for="f-first">Исм *</label><input id="f-first" type="text" required autocomplete="given-name"><p class="err">Исмни киритинг</p></div>
+        </div>
+        <div class="row2">
+          <div class="field"><label for="f-birth">Туғилган сана *</label><input id="f-birth" type="date" required autocomplete="bday"><p class="err">Санани танланг</p></div>
+          <div class="field"><label for="f-cit">Фуқаролик *</label>
+            <select id="f-cit" required><option value="">Танланг</option><option>Ўзбекистон Республикаси фуқароси</option><option>Хорижий фуқаро</option></select><p class="err">Танланг</p></div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Алоқа</legend>
+        <div class="row2">
+          <div class="field"><label for="f-tel">Телефон *</label><input id="f-tel" type="tel" required autocomplete="tel" placeholder="+998 __ ___ __ __"><p class="err">Телефонни киритинг</p></div>
+          <div class="field"><label for="f-mail">Электрон почта *</label><input id="f-mail" type="email" required autocomplete="email"><p class="err">Почтани киритинг</p></div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Йўналиш ва ҳужжатлар</legend>
+        <div class="field"><label for="f-prog">Йўналиш *</label>
+          <select id="f-prog" required><option value="">Танланг</option><option>Дизайн (бакалавриат), 2026/2027</option></select><p class="err">Йўналишни танланг</p></div>
+        <div class="field"><label for="f-docs">Ҳужжатлар <span class="hint">(PDF, JPG; рўйхат тасдиқланади)</span></label><input id="f-docs" type="file" multiple accept=".pdf,.jpg,.jpeg,.png"></div>
+        <div class="field"><label for="f-port">Портфолио <span class="hint">(расм, PDF ёки видео; талаблар тасдиқланади)</span></label><input id="f-port" type="file" multiple accept=".pdf,.jpg,.jpeg,.png,.mp4"></div>
+      </fieldset>
+      <div class="field">
+        <label class="check"><input type="checkbox" id="f-consent" required><span>Шахсий маълумотларимни ариза кўриб чиқиш мақсадида қайта ишлашга розиман. <a href="#">Махфийлик сиёсати</a> билан танишдим. *</span></label>
+        <p class="err">Давом этиш учун розилик керак</p>
+      </div>
+      <div><button class="btn brand" type="submit">Ариза юбориш</button></div>
+    </form>
+    <div class="ok" id="applyOk" hidden tabindex="-1">
+      <h2>Раҳмат! Бу намуна ариза.</h2>
+      <p>Ҳақиқий тизимда сиз ариза рақамини оласиз ва ҳолатини кабинетда ҳамда SMS, почта ёки Telegram орқали кузатасиз.</p>
+      <p><a class="btn" href="qabul.html">Қабул бўлимига қайтиш</a></p>
+    </div>
+    <div class="related"><h2>Боғлиқ саҳифалар</h2><div class="related-links"><a href="qabul-tartibi.html"><span>Қабул тартиби</span><span aria-hidden="true">→</span></a><a href="ijodiy-imtihon.html"><span>Ижодий имтиҳон</span><span aria-hidden="true">→</span></a><a href="xorijiy-fuqarolar.html"><span>Хорижий фуқаролар</span><span aria-hidden="true">→</span></a></div></div>
+    <div class="pagefoot" id="pagefoot"></div>
+  </article>
+</div>
+</main>
+<div id="chrome-bottom"></div>
+<script src="layout.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
